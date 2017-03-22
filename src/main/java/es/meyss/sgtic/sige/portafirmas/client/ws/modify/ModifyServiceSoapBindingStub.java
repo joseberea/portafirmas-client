@@ -25,9 +25,9 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         org.apache.axis.description.ParameterDesc param;
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("createRequest");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "request"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "request"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Request.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "request"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "request"), es.meyss.sgtic.sige.portafirmas.type.Request.class, false, false);
         oper.addParameter(param);
         oper.setReturnType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
         oper.setReturnClass(java.lang.String.class);
@@ -44,9 +44,9 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("updateRequest");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "request"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "request"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Request.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "request"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "request"), es.meyss.sgtic.sige.portafirmas.type.Request.class, false, false);
         oper.addParameter(param);
         oper.setReturnType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
         oper.setReturnClass(java.lang.String.class);
@@ -63,7 +63,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("deleteRequest");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "requestId"), org.apache.axis.description.ParameterDesc.INOUT, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
@@ -80,7 +80,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("removeRequest");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "requestId"), org.apache.axis.description.ParameterDesc.INOUT, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
@@ -99,7 +99,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("sendRequest");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "requestId"), org.apache.axis.description.ParameterDesc.INOUT, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
@@ -116,11 +116,11 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("insertDocument");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "requestId"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "document"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "document"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Document.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "document"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "document"), es.meyss.sgtic.sige.portafirmas.type.Document.class, false, false);
         oper.addParameter(param);
         oper.setReturnType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
         oper.setReturnClass(java.lang.String.class);
@@ -137,7 +137,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("deleteDocument");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "documentId"), org.apache.axis.description.ParameterDesc.INOUT, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
@@ -154,16 +154,16 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("insertSigners");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "requestId"), org.apache.axis.description.ParameterDesc.INOUT, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "signLine"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "int"), int.class, false, false);
         oper.addParameter(param);
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "signerList"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signerList"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Signer[].class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "signerList"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signerList"), es.meyss.sgtic.sige.portafirmas.type.Signer[].class, false, false);
         param.setItemQName(new javax.xml.namespace.QName("", "signer"));
         oper.addParameter(param);
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "signLineType"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signLineType"), es.meyss.sgtic.sige.portafirmas.client.ws.type.SignLineType.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "signLineType"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signLineType"), es.meyss.sgtic.sige.portafirmas.type.SignLineType.class, false, false);
         oper.addParameter(param);
         oper.setReturnType(org.apache.axis.encoding.XMLType.AXIS_VOID);
         oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
@@ -178,7 +178,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("deleteSigners");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "requestId"), org.apache.axis.description.ParameterDesc.INOUT, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
@@ -186,7 +186,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         param.setOmittable(true);
         param.setNillable(true);
         oper.addParameter(param);
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "signerList"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signerList"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Signer[].class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "signerList"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signerList"), es.meyss.sgtic.sige.portafirmas.type.Signer[].class, false, false);
         param.setItemQName(new javax.xml.namespace.QName("", "signer"));
         oper.addParameter(param);
         oper.setReturnType(org.apache.axis.encoding.XMLType.AXIS_VOID);
@@ -202,7 +202,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("remoteSign");
-        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class, false, false);
+        param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "authentication"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication"), es.meyss.sgtic.sige.portafirmas.type.Authentication.class, false, false);
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "requestId"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
@@ -215,7 +215,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "user"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
         oper.setReturnType(new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "resultRemoteSign"));
-        oper.setReturnClass(es.meyss.sgtic.sige.portafirmas.client.ws.type.ResultRemoteSign.class);
+        oper.setReturnClass(es.meyss.sgtic.sige.portafirmas.type.ResultRemoteSign.class);
         oper.setReturnQName(new javax.xml.namespace.QName("", "resultRemoteSign"));
         oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
         oper.setUse(org.apache.axis.constants.Use.LITERAL);
@@ -260,21 +260,21 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
             java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", ">exceptionInfo");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "action");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Action.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Action.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "actionList");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Action[].class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Action[].class;
             cachedSerClasses.add(cls);
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "action");
             qName2 = new javax.xml.namespace.QName("", "action");
@@ -283,21 +283,21 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "authentication");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Authentication.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "comment");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Comment.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Comment.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "commentList");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Comment[].class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Comment[].class;
             cachedSerClasses.add(cls);
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "comment");
             qName2 = new javax.xml.namespace.QName("", "comment");
@@ -306,14 +306,14 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "document");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Document.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Document.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "documentList");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Document[].class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Document[].class;
             cachedSerClasses.add(cls);
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "document");
             qName2 = new javax.xml.namespace.QName("", "document");
@@ -322,28 +322,28 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "documentType");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.DocumentType.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.DocumentType.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "importanceLevel");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.ImportanceLevel.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.ImportanceLevel.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "job");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Job.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Job.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "noticeList");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.State[].class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.State[].class;
             cachedSerClasses.add(cls);
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "state");
             qName2 = new javax.xml.namespace.QName("", "state");
@@ -352,14 +352,14 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "parameter");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Parameter.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Parameter.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "parameterList");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Parameter[].class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Parameter[].class;
             cachedSerClasses.add(cls);
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "parameter");
             qName2 = new javax.xml.namespace.QName("", "parameter");
@@ -368,7 +368,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "remitterList");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.User[].class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.User[].class;
             cachedSerClasses.add(cls);
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "user");
             qName2 = new javax.xml.namespace.QName("", "user");
@@ -377,35 +377,35 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "request");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Request.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Request.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "requestStatus");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.RequestStatus.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.RequestStatus.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "resultRemoteSign");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.ResultRemoteSign.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.ResultRemoteSign.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signer");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Signer.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Signer.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signerList");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.Signer[].class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.Signer[].class;
             cachedSerClasses.add(cls);
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signer");
             qName2 = new javax.xml.namespace.QName("", "signer");
@@ -414,14 +414,14 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signLine");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.SignLine.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.SignLine.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signLineList");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.SignLine[].class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.SignLine[].class;
             cachedSerClasses.add(cls);
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signLine");
             qName2 = new javax.xml.namespace.QName("", "signLine");
@@ -430,21 +430,21 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signLineType");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.SignLineType.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.SignLineType.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "signType");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.SignType.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.SignType.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(enumsf);
             cachedDeserFactories.add(enumdf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "state");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.State.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.State.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
@@ -460,21 +460,21 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "timestampInfo");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.TimestampInfo.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.TimestampInfo.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "user");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.User.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.User.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
 
             qName = new javax.xml.namespace.QName("urn:juntadeandalucia:cice:pfirma:type:v2.0", "userJob");
             cachedSerQNames.add(qName);
-            cls = es.meyss.sgtic.sige.portafirmas.client.ws.type.UserJob.class;
+            cls = es.meyss.sgtic.sige.portafirmas.type.UserJob.class;
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
@@ -545,7 +545,7 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         }
     }
 
-    public java.lang.String createRequest(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, es.meyss.sgtic.sige.portafirmas.client.ws.type.Request request) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public java.lang.String createRequest(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, es.meyss.sgtic.sige.portafirmas.type.Request request) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -579,15 +579,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public java.lang.String updateRequest(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, es.meyss.sgtic.sige.portafirmas.client.ws.type.Request request) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public java.lang.String updateRequest(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, es.meyss.sgtic.sige.portafirmas.type.Request request) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -621,15 +621,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public void deleteRequest(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public void deleteRequest(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -665,15 +665,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public void removeRequest(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId, java.lang.String removingMessage) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public void removeRequest(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId, java.lang.String removingMessage) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -709,15 +709,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public void sendRequest(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public void sendRequest(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -753,15 +753,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public java.lang.String insertDocument(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, java.lang.String requestId, es.meyss.sgtic.sige.portafirmas.client.ws.type.Document document) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public java.lang.String insertDocument(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, java.lang.String requestId, es.meyss.sgtic.sige.portafirmas.type.Document document) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -795,15 +795,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public void deleteDocument(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, javax.xml.rpc.holders.StringHolder documentId) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public void deleteDocument(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, javax.xml.rpc.holders.StringHolder documentId) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -839,15 +839,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public void insertSigners(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId, int signLine, es.meyss.sgtic.sige.portafirmas.client.ws.type.Signer[] signerList, es.meyss.sgtic.sige.portafirmas.client.ws.type.SignLineType signLineType) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public void insertSigners(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId, int signLine, es.meyss.sgtic.sige.portafirmas.type.Signer[] signerList, es.meyss.sgtic.sige.portafirmas.type.SignLineType signLineType) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -883,15 +883,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public void deleteSigners(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId, java.lang.Integer signLineNumber, es.meyss.sgtic.sige.portafirmas.client.ws.type.Signer[] signerList) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public void deleteSigners(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, javax.xml.rpc.holders.StringHolder requestId, java.lang.Integer signLineNumber, es.meyss.sgtic.sige.portafirmas.type.Signer[] signerList) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -927,15 +927,15 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
 }
     }
 
-    public es.meyss.sgtic.sige.portafirmas.client.ws.type.ResultRemoteSign remoteSign(es.meyss.sgtic.sige.portafirmas.client.ws.type.Authentication authentication, java.lang.String requestId, java.lang.String signatures, java.lang.String documentId, long idTagList, java.lang.String user) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo {
+    public es.meyss.sgtic.sige.portafirmas.type.ResultRemoteSign remoteSign(es.meyss.sgtic.sige.portafirmas.type.Authentication authentication, java.lang.String requestId, java.lang.String signatures, java.lang.String documentId, long idTagList, java.lang.String user) throws java.rmi.RemoteException, es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
@@ -959,9 +959,9 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         else {
             extractAttachments(_call);
             try {
-                return (es.meyss.sgtic.sige.portafirmas.client.ws.type.ResultRemoteSign) _resp;
+                return (es.meyss.sgtic.sige.portafirmas.type.ResultRemoteSign) _resp;
             } catch (java.lang.Exception _exception) {
-                return (es.meyss.sgtic.sige.portafirmas.client.ws.type.ResultRemoteSign) org.apache.axis.utils.JavaUtils.convert(_resp, es.meyss.sgtic.sige.portafirmas.client.ws.type.ResultRemoteSign.class);
+                return (es.meyss.sgtic.sige.portafirmas.type.ResultRemoteSign) org.apache.axis.utils.JavaUtils.convert(_resp, es.meyss.sgtic.sige.portafirmas.type.ResultRemoteSign.class);
             }
         }
   } catch (org.apache.axis.AxisFault axisFaultException) {
@@ -969,8 +969,8 @@ public class ModifyServiceSoapBindingStub extends org.apache.axis.client.Stub im
         if (axisFaultException.detail instanceof java.rmi.RemoteException) {
               throw (java.rmi.RemoteException) axisFaultException.detail;
          }
-        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) {
-              throw (es.meyss.sgtic.sige.portafirmas.client.ws.type.ExceptionInfo) axisFaultException.detail;
+        if (axisFaultException.detail instanceof es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) {
+              throw (es.meyss.sgtic.sige.portafirmas.type.ExceptionInfo) axisFaultException.detail;
          }
    }
   throw axisFaultException;
